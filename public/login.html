@@ -40,13 +40,12 @@
         </div>
         <div class="row center">
           <!-- Button to open the modal login form -->
-          <button onclick="document.getElementById('id01').style.display='block'" class="btn-large waves-effect waves-light"
-            id="loginBtn">Login</button>
+          <button onclick="document.getElementById('id01').style.display='block'"class="btn-large waves-effect waves-light" id="loginBtn">Login</button>
 
           <!-- The Modal -->
           <div id="id01" class="modal">
             <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-
+            
             <!-- Modal Content -->
             <form class="login modal-content animate">
               <div class="imgcontainer">
@@ -60,8 +59,7 @@
               </div>
               <br>
               <div class="cancelContainer">
-                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="waves-effect waves-light btn-small"
-                  id="cancelBtn">Cancel</button>
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="waves-effect waves-light btn-small" id="cancelBtn">Cancel</button>
                 <p id="loginText">Or sign up <a href="/signup">here</a></p>
               </div>
             </form>
