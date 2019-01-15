@@ -25,8 +25,6 @@ app.use(passport.session());
 require("./routes/htmlRoutes.js")(app);
 require("./routes/apiRoutes.js")(app);
 
-// needed to grab JSON, added by Erich to require the dialogue API 
-require("./routes/apiroutes")(app);
 
 if (process.env.NODE_ENV === "test") {
   syncOptions.force = true;
